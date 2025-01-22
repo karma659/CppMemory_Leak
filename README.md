@@ -13,4 +13,7 @@ clang++ -std=c++14 -g main.cpp -o memorytracker
 For testing modify main.cpp file. Create some memory leaks. Do compile as mentioned above. Run the exe file.
 ./exe
 
-                  
+ ## Output
+![Screenshot (2)](https://github.com/karma659/CppMemory_Leak/blob/main/uploads/1.png)
+![Screenshot (1)](https://github.com/karma659/CppMemory_Leak/blob/main/uploads/3.png)
+![Screenshot (3)](https://github.com/karma659/CppMemory_Leak/blob/main/uploads/2.png)
