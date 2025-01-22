@@ -35,6 +35,7 @@ struct UserDefinedType {
 int main() {
     TreeNode* root = buildTree();
      int* intArray = (int*)NEW(6 * sizeof(int), "IntArray");
+     int* ptr = (int*)malloc(10 * sizeof(int));
      float* floatArray = (float*)NEW(4 * sizeof(float), "FloatArray");
     UserDefinedType* userObject = (UserDefinedType*)NEW(sizeof(UserDefinedType), "UserDefinedType");
 
